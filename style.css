@@ -1,0 +1,1003 @@
+ 
+ 
+                                     /* GENERAL */
+
+
+ * {
+
+font-family: 'Raleway';
+padding: 5px;
+    
+}
+
+
+
+h2 
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+    
+    
+h3
+{
+    font-weight: bold;
+     
+}
+
+
+a
+{
+   text-decoration: none;
+   color: #606060;
+}
+
+.texteGras
+{
+    font-weight:bold;
+}
+
+.flexCentre
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexBetween
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexAround
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.flexColumnCentre
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flexColumnBetween
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.flexColumnAround
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.textDecoration
+{
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+                                     /* HEADER */
+
+
+.tailleHeader
+{
+    max-width: 1440px;
+}                                     
+
+
+
+.logo
+{
+    display: flex;
+
+                                
+}
+
+
+
+.navigation
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    text-decoration: none;
+
+}
+
+.navigation a:hover 
+{
+    color: #0065FC;
+}
+
+
+
+.zoneNav
+{
+    width: 350px;
+    height: 99px;
+
+}
+
+
+.bordureNav:hover
+{
+    width: auto;
+    height: 99px;
+    border-top: 1px solid;
+    border-color: #0065FC;
+
+}
+
+
+                                /* RECHERCHE */
+
+
+
+.barreRecherche
+{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.iconeRecherche
+{
+    width: 55px;
+    height: 40px;
+    background-color: #F2F2F2;
+    border-radius: 15px 0 0 15px;
+    margin-right: -10px;
+
+
+}
+
+.zoneRecherche
+{
+    width: 250px;
+    height: 50px;
+    font-size: 17px;
+    color: #000;
+    font-weight: bold;
+    padding-left: 15px;
+    border: 0.2px solid #e2e2e2;
+}
+
+
+.bouton
+{
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    color: #F2F2F2;
+    background-color: #0065FC;
+    border-radius: 0 15px 15px 0;
+    margin-left: -15px;
+    cursor: pointer;
+    
+}
+
+.ordiNone
+{
+    display: none;
+}
+
+
+                                  /*FILTRES*/
+
+
+#filtres {
+    display: flex;
+    margin: 20px 0px;
+}
+
+#filtres div {
+    display: flex;
+    align-items: center;
+}
+
+#filtres button {
+    border: 2px solid rgb(217, 217, 217);
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 0px 20px 0px 0px;
+    margin: 2px 10px;
+}
+
+#filtres span {
+    margin-left: 10px;
+}
+
+#filtres button:hover {
+    background-color: rgb(0, 101, 252);
+    color: rgb(255, 255, 255);
+}
+
+#filtres i {
+    border-radius: 50px;
+    background-color: rgb(222, 235, 255);
+    color: rgb(0, 101, 252);
+    padding: 10px;
+    margin: -2px;
+}
+
+
+.logoInfo
+{
+    color:#0065FC;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
+    width: 10px;
+    height: 10px;
+}
+
+
+
+
+
+                                  /*HEBERGEMENT*/
+                                  
+                                  
+.tailleHebergement
+{
+    flex:2;
+    height: 635px ;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+}
+
+.margeHebergement
+{
+    margin-left: 20px;
+}
+
+
+     #cardhebergement
+     {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around ;
+
+     }
+
+                .card1
+                {
+                    background-color: white;
+                    width: 240px;
+                    height: 200px;
+                    border-radius:20px;
+                    margin-bottom: 30px;
+                    cursor: pointer;
+
+                }
+
+                     .imgCard1
+                     {
+                         background-image: url("Images/cannebiere.jpg");
+                         background-size: cover;
+                         background-position: center;
+                         width: 95.5%;
+                         height: 105px;
+                         margin-bottom: -12px;
+                         border-radius: 15px 15px 0 0;
+
+                     }
+
+
+                .card2
+                 {
+                    background-color: white;
+                    width: 240px;
+                    height: 200px;
+                    border-radius:20px;
+                    cursor: pointer;
+
+                }
+
+                .imgCard2
+                {
+                    background-image: url("Images/port.jpg");
+                    background-size: cover;
+                    background-position: center;
+                    width: 95.5%;
+                    height: 105px;
+                    margin-bottom: -12px;
+                    border-radius: 15px 15px 0 0;
+
+                }
+
+            
+                .card3
+
+                 {
+                    background-color: white;
+                    width: 240px;
+                    height: 200px;
+                    border-radius:20px;
+                    cursor: pointer;
+                }
+
+
+                .imgCard3
+                {
+                    background-image: url("Images/mouette.jpg");
+                    background-size: cover;
+                    background-position: center;
+                    width: 95.5%;
+                    height: 105px;
+                    margin-bottom: -12px;
+                    border-radius: 15px 15px 0 0;
+
+                }
+
+                .card4
+                 {
+                    background-color: white;
+                    width: 240px;
+                    height: 200px;
+                    border-radius:20px;
+                    cursor: pointer;
+                }
+
+                .imgCard4
+                {
+                    background-image: url("Images/mer.jpg");
+                    background-size: cover;
+                    background-position: center;
+                    width: 95.5%;
+                    height: 105px;
+                    margin-bottom: -12px;
+                    border-radius: 15px 15px 0 0;
+
+                }
+
+                .card5
+                 {
+                    background-color: white;
+                    width:  240px;
+                    height: 200px;
+                    border-radius:20px;
+                    cursor: pointer;
+                }
+
+                .imgCard5
+                {
+                    background-image: url("Images/panier.jpg");
+                    background-size: cover;
+                    background-position: center;
+                    width: 95.5%;
+                    height: 105px;
+                    margin-bottom: -12px;
+                    border-radius: 15px 15px 0 0;
+
+                }
+
+                .card6
+                 {
+                    background-color: white;
+                    width: 240px;
+                    height: 200px;
+                    border-radius:20px;
+                    cursor: pointer;
+                }
+
+                .imgCard6
+                {
+                    background-image: url("Images/amina.jpg");
+                    background-size: cover;
+                    background-position: center;
+                    width: 95.5%; 
+                    height: 105px;
+                    margin-bottom: -12px;
+                    border-radius: 15px 15px 0 0;
+
+                }
+
+
+.zoneTexteHebergement
+{
+    height: 80px;
+    line-height: 0.5px;
+
+}
+
+
+.zoneEtoile
+{
+    margin-top: -8px;
+    margin-left: -6px;
+    letter-spacing: -8px;
+
+
+}
+
+.etoileBleue
+{
+    color: #0065FC;
+}
+
+.etoileGrise
+{
+    color: #F2F2F2;
+}
+
+
+
+
+                                        /*POPULAIRES*/
+
+
+
+.taillePopulaire
+{
+    flex:1;
+    height: 635px ;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+}
+                                        
+.margePopetLogo
+{
+    margin: 0 20px 0 20px;
+}
+
+.boxPop
+{
+    background-color: white;
+    height: 140px;
+    padding: 1% 0 1% 1%;
+    border-radius: 20px;
+    margin: 0 20px 30px 20px;
+    cursor: pointer;
+}
+
+.imgPop1
+{
+    background-image: url("Images/soleil.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 130px;
+    border-radius: 15px 0 0 15px;
+}
+
+.imgPop2
+{
+    background-image: url("Images/coeur.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 53%;
+    height: 130px;
+    border-radius: 15px 0 0 15px;
+}
+
+.imgPop3
+{
+    background-image: url("Images/blanc.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 130px;
+    border-radius: 15px 0 0 15px;
+}
+
+
+
+.boxDetailPop
+{
+    padding-left: 5%;
+}
+
+
+.flexColonneAround
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+ 
+.zoneTextePopulaire
+{
+    line-height: 0.5px;
+    padding-bottom: 5px;
+}
+
+
+                                    /*ACTIVITE*/
+
+
+
+#activites {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#horizontal {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+}
+
+#horizontal h2 {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#activites .height {
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px rgb(217, 217, 217);
+    width: 260px;
+    height: 450px;
+    margin: 0px 20px 20px 00px;
+}
+
+#activites .width {
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px rgb(217, 217, 217);
+    width: 260px;
+    margin: 0px 30px 20px 0px;
+}
+
+.height img {
+    border-radius: 20px 20px 0px 0px;
+    width: 102%;
+    height: 85%;
+    object-fit: cover;
+    margin-left: -12px;
+    margin-top: -15px;
+}
+
+.width img {
+    border-radius: 20px 20px 0px 0px;
+    width: 102%;
+    height: 65%;
+    object-fit: cover;
+    margin-left: -12px;
+    margin-top: -15px;
+}
+
+#activites p {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#activites a {
+    text-decoration: none;
+    color: black;
+}
+
+#activites article:hover {
+    box-shadow: 6px 6px 6px rgb(94, 94, 94);
+}
+
+.fortpomegues {
+    height: 250px;
+}
+
+.ilesfrioul {
+    height: 170px;
+}
+
+.notredame
+{
+    height: 210px;
+}
+
+.parclongchamp
+{
+    height: 210px;
+}
+
+
+
+
+                                        /*FOOTER*/
+
+.conteneurfooter
+{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    padding-right : 350px ; 
+    text-align : left;
+    background-size: auto;
+    background-color: #F2F2F2;
+}
+
+
+.espaceFooter
+{
+    line-height: 30px;
+}
+
+
+
+
+                                       /* RESPONSIVE TABLETTE */
+
+@media  (max-width: 1245px) {
+
+    .responsiveColonneTab{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+
+    .responsiveHeb
+    {
+        
+        width: 100%;
+        height: 1800px;
+        border-radius: 20px;
+        margin : 20px;
+        background-color: #F2F2F2;
+    }
+
+    .margeTab
+    {
+        margin-bottom: 30px;
+    }
+
+    .margeMenuTab
+    {
+        margin-right: 25px;
+    }
+
+    .navigation
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 35%;
+        text-decoration: overline;
+        text-decoration-line: 10px;
+    }
+
+}
+
+
+@media (max-width: 1100px){
+    #activites {
+        margin: 30px 0;
+        padding: 20px;
+    }
+    
+    #activites h2 {
+        margin-left: 30px;
+    }
+    
+    #horizontal {
+        flex-direction: column;
+    }
+    
+    #activites .height {
+        width: 100%;
+        max-width: 800px;
+        height: 240px;
+        margin: 0 auto 20px;
+    }
+    
+    #activites .width {
+        width: 100%;
+        max-width: 800px;
+        height: 240px;
+        margin: 0 auto 20px;
+    }
+    
+    .height img {
+        height: 70%;
+    }
+    
+    .width img {
+        height: 70%;
+    }
+}
+
+
+@media  (max-width: 879px) {
+
+    #filtres {
+        flex-direction: column;
+    }
+    
+    #filtres div {
+        flex-wrap: wrap;
+    }
+    
+    #filtres button {
+        padding: 0 10px 0 0;
+        margin: 5px 8px 5px 0;
+    }
+
+}
+
+
+@media  (max-width: 1035px) {
+    .conteneurfooter
+    {
+        width: auto;
+        display: flex;
+        height: 200px;
+        text-align : left;
+        background-size: auto;
+        background-color: #F2F2F2;
+
+    }
+
+    .boxApropos{
+        min-width: 255px;
+    }
+
+    .boxFooter2{
+        min-width: 195px;
+
+    }
+
+    .boxFooter3{
+        min-width: 133px;
+    }
+
+
+
+    .footerResponsive
+{
+    padding-right: 20px;
+    justify-content: space-around;
+    height: 200px;
+    flex-wrap: nowrap;
+}
+
+
+    
+}
+
+
+                                  /* RESPONSIVE MOBILE */
+                                
+
+
+@media  (max-width: 768px) {
+
+
+/* MENU MOBILE */
+
+
+
+.zoneNav
+{
+    height: auto;
+}
+
+.bordureNav
+{
+    width: 200px;
+    height: 35px;
+    border-bottom: 2px solid #606060;
+    border-top: none;
+    margin-right: 20px;
+}
+
+
+    .menuMobile
+    {
+        flex-direction: column;
+    }
+
+    .navigation
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        text-decoration: underline;
+        text-decoration-line: 10px;
+    }
+
+    .navigation a:hover 
+{
+    color: #0065FC;
+}
+
+
+/* RECHERCHER MOBILE */
+
+.bouton
+{
+    width: 50px;
+    border-radius: 15px;
+}
+
+
+.mobileNone
+{
+    display: none;
+}
+
+.ordiNone
+{
+    display: block;
+}
+
+
+.barreRecherche
+{
+    width: auto;
+}
+
+
+/* POPULAIRE MOBILE */                                  
+
+
+
+    .responsiveColonneMobile
+    {
+        flex-direction: column-reverse;
+
+    }
+
+    .taillePopulaire
+{
+    min-width: 440px;
+    height: 635px ;
+    margin-left: 20px;
+    border-radius: 0px;
+    background-color: #F2F2F2;
+}
+
+
+
+
+/* HERBERGEMENT MOBILE */
+
+
+.tailleHebergement
+{
+    min-width: 400px;
+    height: 635px ;
+    background-color: white;
+}
+
+
+.card1
+{
+    min-width: 350px;
+    background-color: white;
+    border-radius:20px;
+    box-shadow: 2px 2px 13px 4px #F2F2F2;
+    padding-bottom: -10px;
+
+}
+
+.card2
+{
+    min-width: 350px;
+    background-color: white;
+    border-radius:20px;
+    box-shadow: 2px 2px 13px 4px #F2F2F2;
+    margin-top: -10px;
+    margin-bottom: 20px;
+
+
+}
+
+.card3
+{
+    min-width: 350px;
+    background-color: white;
+    border-radius:20px;
+    box-shadow: 2px 2px 13px 4px #F2F2F2;
+    margin-bottom: 20px;
+
+}
+
+.card4
+{
+    min-width: 350px;
+    background-color: white;
+    border-radius:20px;
+    box-shadow: 2px 2px 13px 4px #F2F2F2;
+}
+
+.card5
+{
+    min-width: 350px;
+    background-color: white;
+    border-radius:20px;
+    box-shadow: 2px 2px 13px 4px #F2F2F2;
+    margin-top: -12px;
+    margin-bottom: 20px;
+}
+
+.card6
+{
+    min-width: 350px;
+    background-color: white;
+    border-radius:20px;
+    box-shadow: 2px 2px 13px 4px #F2F2F2;
+}
+
+
+                
+
+/* ACTIVITE MOBILE */
+
+#activites {
+    margin: 30px 0;
+    padding: 20px;
+}
+
+#activites h2 {
+    margin-left: 30px;
+}
+
+#horizontal {
+    flex-direction: column;
+}
+
+#activites .height {
+    width: 100%;
+    height: 240px;
+    margin: 0 auto 20px;
+}
+
+#activites .width {
+    width: 100%;
+    height: 240px;
+    margin: 0 auto 20px;
+}
+
+.height img {
+    height: 70%;
+}
+
+.width img {
+    height: 70%;
+}
+
+
+
+
+/* FOOTER MOBILE */
+
+
+    .footerMobile
+    {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .boxApropos
+    {
+        height: 160px;
+    }
+
+    .boxFooter2
+    {
+        height: 140px;
+    }
+
+
+
+}
+
+
+
+                      
